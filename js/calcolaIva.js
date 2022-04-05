@@ -11,7 +11,7 @@ console.log(ImportoConIva)
 
 document.getElementById("generated-iva").innerHTML =
 `
-<h1 id="welcome-title" class="text-center">BENFATTO ORA PUOI VEDERE L'IMPORTO CON IVA</h1>
+<h1 class="text-center">BEN FATTO ORA PUOI VEDERE L'IMPORTO CON IVA</h1>
 
             <ul >
                 <li class="text-center"><h3>I dati da te inseriti</h3></li>

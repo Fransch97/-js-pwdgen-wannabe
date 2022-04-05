@@ -9,13 +9,13 @@ favoriteColor = prompt("Inserisci il tuo colore preferito");
 
 console.log(firstName, lastName, favoriteColor );
 
-const generatedPassword = firstName + lastName + favoriteColor ;
+const generatedPassword = firstName + lastName + favoriteColor + 22;
 
 console.log( generatedPassword);
 
 document.getElementById("generated-pw").innerHTML = 
 `
-<h1 id="welcome-title" class="text-center">BEN FATTO ORA PUOI VEDERE LA PASSWORD GENERATA PER TE</h1>
+<h1 class="text-center">BEN FATTO ORA PUOI VEDERE LA PASSWORD GENERATA PER TE</h1>
             <ul >
                 <li class="text-center"><h3>I dati da te inseriti</h3></li>
                 <li class="text-center">Nome: ${firstName}</li>
