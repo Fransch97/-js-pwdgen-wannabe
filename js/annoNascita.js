@@ -48,4 +48,9 @@ document.getElementById("generated-birthyear").innerHTML =
 <li class="text-center"><h3>Fra 25 anni </h3></li>
 <li class="text-center">La tua età sarà: ${age+add5+add20}</li>
 </ul>
+
+<ul >
+<li class="text-center"><h3>Nel anno 2050  </h3></li>
+<li class="text-center">La tua età sarà: ${age+(currentYear - birthYear)}</li>
+</ul>
 `;
