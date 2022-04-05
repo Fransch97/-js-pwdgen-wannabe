@@ -21,5 +21,6 @@ document.getElementById("generated-iva").innerHTML =
             <ul >
                 <li class="text-center"><h3>L'importo con iva</h3></li>
                 <li class="text-center">Importo con iva: ${ImportoConIva}€</li>
+                <li class="text-center">Iva da pagare: ${ImportoConIva - importo}€</li>
             </ul>
 `;
