@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(186, 238, 29);
+}
+
+nav{
+    background: black;
+    margin-bottom: 50px;
+}
+li{
+    list-style: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1{
+    font-weight: bold;
+}
+ul{
+    padding: 20px 0;
+
+}
