@@ -51,6 +51,6 @@ document.getElementById("generated-birthyear").innerHTML =
 
 <ul >
 <li class="text-center"><h3>Nel anno 2050  </h3></li>
-<li class="text-center">La tua età sarà: ${age+(2050 - birthYear)}</li>
+<li class="text-center">La tua età sarà: ${age + ( 2050 - currentYear )}</li>
 </ul>
 `;
