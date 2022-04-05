@@ -1,6 +1,13 @@
 body{
     background-color: rgb(186, 238, 29);
 }
+body.iva{
+    background-color: aqua;
+}
+
+body.eta{
+    background-color: blanchedalmond;
+}
 
 nav{
     background: black;
